@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>profile card component</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+        * {
+            font-family: 'Kumbh Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #19A1AE;
+            border-radius: 15px;
+            display: flex;
+            background-image: url(./assets/bg-pattern-top.svg);
+            background-image: url(./assets/bg-pattern-bottom.svg);
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .container {
+            width: 350px;
+            height: 374px;
+            border-radius: 15px;
+            background-color: #FFFFFF;
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            border-radius: 15px 15px 0px 0px;
+        }
+
+        .victor {
+            width: 96px;
+            height: 96px;
+            border: 5px solid #FFFFFF;
+            border-radius: 55px;
+            margin: -30px 122px;
+        }
+
+        h1 {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            color: #2E3349;
+        }
+
+        h2 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            color: #6B7082;
+        }
+
+        h3 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #6B7082;
+        }
+
+        hr {
+            background: #E8E9EC;
+            border: none;
+            width: 350px;
+            height: 1px;
+            margin-top: 28px;
+            margin-bottom: 24px;
+        }
+
+        .kkk {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            color: #2E3349;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 59px;
+            margin-right: 56.5px;
+            margin-bottom: 9px;
+        }
+
+        .mmm {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 10px;
+            line-height: 12px;
+            text-align: center;
+            letter-spacing: 1.5px;
+            color: #6B7082;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 48.5px;
+            margin-right: 55.5px;
+            margin-bottom: 25px;
+        }
+
+        .victor26 {
+            display: flex;
+            justify-content: center;
+            gap: 8.5px;
+            margin-top: 34px;
+            margin-bottom: 13px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img class="card" src="./assets/bg-pattern-card.svg" />
+        <div>
+            <img class="victor" src="./assets/image-victor.jpg" />
+            <div class="victor26">
+                <h1>Victor Crest</h1>
+                <h2>26</h2>
+            </div>
+            <div>
+                <h3>London</h3>
+            </div>
+            <hr>
+            <div class="kkk">
+                <p>80K</p>
+                <p>803K</p>
+                <p>1.4K</p>
+            </div>
+            <div class="mmm">
+                <p>Followers</p>
+                <p>Likes</p>
+                <p>Photos</p>
+            </div>
+        </div>
+    </div>
+</body>
